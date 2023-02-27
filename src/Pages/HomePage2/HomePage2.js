@@ -89,11 +89,11 @@ function HomePage2() {
                 </div>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', alignItems: 'center', width:'45%', height: '27.82vh'}}>
-              <img className={styles.iconContainImgSmall} style={{borderRadius: '25vh'}} src={require("../../Images/image 1.png")} alt={""}/>
-              <img className={styles.iconContainImgSmall} style={{borderRadius: '25vh'}} src={require("../../Images/image 1.png")} alt={""}/>
+              <img className={styles.iconContainImgSmall} style={{borderRadius: '25vh', width: '6.5217vh', height: '6.5217vh'}} src={require("../../Images/image 1.png")} alt={""}/>
+              <img className={styles.iconContainImgSmall} style={{borderRadius: '25vh', width: '6.5217vh', height: '6.5217vh'}} src={require("../../Images/image 1.png")} alt={""}/>
             </div>
           </div>
-          <div style={{width:'100%',display: 'flex', alignContent: 'center', justifyContent: 'center'}}>
+          <div style={{width:'calc(100% - 15.625vw)',display: 'flex', alignContent: 'center', justifyContent: 'space-between',paddingRight: '7.8125vw',paddingLeft: '7.8125vw'}}>
             <img style={{width:'16.92 vw', height: '39.47vh', marginLeft: '1.31vw', marginBottom: '1vh'}} src={require('../../Images/Path33.png')}/>
             <img style={{width:'16.92 vw', height: '39.47vh', marginLeft: '1.31vw', marginBottom: '1vh'}} src={require('../../Images/Path33.png')}/>
             <img style={{width:'16.92 vw', height: '39.47vh', marginLeft: '1.31vw', marginBottom: '1vh'}} src={require('../../Images/Path33.png')}/>
