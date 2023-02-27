@@ -7,9 +7,10 @@
     font-family: 'Montserrat';
     height: 23.4782vh;
     background-color: white;
+    cursor: pointer;
 }
 .containImg{
-    width: 5.2083vw;
+    width: 8.6956vh;
     height: 8.6956vh;
     border-radius: 8.6956vh;
     margin-bottom: 2.1739vh;

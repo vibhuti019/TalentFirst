@@ -80,7 +80,8 @@
     padding-right: 7.8125vw;
     padding-left: 7.8125vw;
     padding-top: 13.0434vh;
-    padding-bottom: 0vh;
+    padding-bottom: 13.0434vh;
+    /* padding-bottom: 0vh; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

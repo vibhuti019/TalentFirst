@@ -6,6 +6,7 @@
     border-radius: 0.8695vh;
     margin-left: 1.0416vw;
     font-family: 'Montserrat';
+    cursor: pointer;
 }
 .containImg{
     width: 100%;

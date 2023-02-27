@@ -11,7 +11,7 @@ import Footer from '../../Components/Footer/footer.js';
 function HomePage() {
   return (
     <div style={{overflow: 'hidden'}}>
-      <Header />
+      <Header withLogin={false}/>
       <div className={styles.main}>
         <div className={styles.image}>
           <div className={styles.head}>

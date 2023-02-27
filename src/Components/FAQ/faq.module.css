@@ -5,6 +5,7 @@
     font-family: 'Montserrat';
     background-color: white;
     margin-top: 2.1739vh;
+    cursor: pointer;
 }
 
 .question{
@@ -38,6 +39,7 @@
     font-family: 'Montserrat';
     background-color: transparent;
     margin-top: 2.1739vh;
+    cursor: pointer;
 }
 .question2{
     width: calc(100%-3.9062vw);

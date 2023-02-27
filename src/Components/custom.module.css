@@ -28,6 +28,7 @@
     /* background: #0072FF; */
     border-radius: 0.8695vh;
     text-align: center;
+    cursor: pointer;
 }
 
 .inputButton{
@@ -45,6 +46,7 @@
     border: 2px solid transparent;
     margin-right: 1.3020vw;
     margin-bottom: 2.1739vh;
+    cursor: pointer;
 }
 .inputButton:hover{
     border: 2px solid #0072FF;
@@ -89,10 +91,11 @@
     border: 2px solid rgba(0, 0, 0, 0.1);
     margin-right: 1.3020vw;
     margin-bottom: 2.1739vh;
+    cursor: grab;
 }
 .smallCircle{
-    width: 1.3020vw;
     height: 2.1739vh;
+    width: 2.1739vh;
     border-radius: 100px;
     margin-right: 1.0416vw;
 }

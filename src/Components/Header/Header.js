@@ -8,10 +8,10 @@ function Header(props) {
   var marginText = '0vh 0.88vw'
   var withLogin = 'false'
 
-  if(props.withLogin != null){
+  if(props.withLogin != undefined){
     withLogin = props.withLogin
   }
-  if(props.marginText != null){
+  if(props.marginText != undefined){
     marginText = props.marginText
   }
   return (
