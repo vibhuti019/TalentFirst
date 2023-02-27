@@ -1,0 +1,19 @@
+.container{
+    width: 21.0937vw;
+    color: black;
+    text-align: left;
+    border-radius: 0.8695vh;
+    margin-left: 1.0416vw;
+    font-family: 'Montserrat';
+    height: 23.4782vh;
+    background-color: white;
+}
+.containImg{
+    width: 5.2083vw;
+    height: 8.6956vh;
+    border-radius: 8.6956vh;
+    margin-bottom: 2.1739vh;
+}
+.containData{
+    padding: 10%;
+}

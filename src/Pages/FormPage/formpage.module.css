@@ -1,0 +1,68 @@
+.container{
+    padding-left: 7.8125vw;
+    padding-right: 7.8125vw;
+    padding-top: 8.6956vh;
+    padding-bottom: 8.6956vh;
+}
+.formHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8.6956vh;
+}
+.button{
+    background-color: rgba(0, 114, 255, 0.1);
+    padding-left: 0.9895vw;
+    padding-right: 0.9895vw;
+    padding-top: 0.9565vh;
+    padding-bottom: 0.9565vh;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7391vh;
+    line-height: 2.1739vh;
+    text-align: center;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4.3478vh;
+    margin-bottom: 4.3478vh;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.1739vh;
+}
+.eachDetail{
+    width: 20.1171vw;
+    margin-right: 1.3020vw;
+}
+.endButton{
+    display: flex;
+    flex-direction: row;
+}
+.radioContainer{
+    display: flex;
+    flex-direction: row;
+}
+.form3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4.3478vh;
+}
+.calendly{
+    width: 41.1979vw;
+    height: 43.4782vh;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.data{
+    width: 41.1979vw;
+    height: 43.4782vh;
+    border-radius: 10px;
+    margin-left: 2.6041vw;
+}

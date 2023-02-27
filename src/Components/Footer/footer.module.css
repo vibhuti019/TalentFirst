@@ -1,0 +1,19 @@
+.container{
+    background-color: black;
+    padding: 15.2173vh 7.8125vw;
+    display: flex;
+    width: 84.375vw;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    align-self: flex-start;
+    align-items: flex-start;
+    top: 0;
+    height: 19.1306vh;
+    border-top: 1px solid rgb(27, 27, 27);
+}
+.topics{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
