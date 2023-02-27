@@ -33,16 +33,16 @@ function HomePage2() {
             <div style={{height: '78.20vh', overflow: 'hidden'}}>
               <div className={styles.animate}>
                 <div style={{display: 'flex', flexDirection:'column'}}>
-                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '6.51vw', marginBottom: '1vh'}} src={require('../../Images/Path53.png')}/>
-                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '6.51vw', marginBottom: '1vh'}} src={require('../../Images/Path53.png')}/>
-                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '6.51vw', marginBottom: '1vh'}} src={require('../../Images/Path53.png')}/>
-                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '6.51vw', marginBottom: '1vh'}} src={require('../../Images/Path53.png')}/>
+                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '6.51vw', marginBottom: '2.1739vh'}} src={require('../../Images/Path53.png')}/>
+                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '6.51vw', marginBottom: '2.1739vh'}} src={require('../../Images/Path53.png')}/>
+                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '6.51vw', marginBottom: '2.1739vh'}} src={require('../../Images/Path53.png')}/>
+                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '6.51vw', marginBottom: '2.1739vh'}} src={require('../../Images/Path53.png')}/>
                 </div>
                 <div style={{display: 'flex', flexDirection:'column', marginTop: '-6.52vh'}}>
-                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '1.31vw', marginBottom: '1vh'}} src={require('../../Images/Path53.png')}/>
-                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '1.31vw', marginBottom: '1vh'}} src={require('../../Images/Path53.png')}/>
-                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '1.31vw', marginBottom: '1vh'}} src={require('../../Images/Path53.png')}/>
-                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '1.31vw', marginBottom: '1vh'}} src={require('../../Images/Path53.png')}/>
+                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '1.31vw', marginBottom: '2.1739vh'}} src={require('../../Images/Path53.png')}/>
+                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '1.31vw', marginBottom: '2.1739vh'}} src={require('../../Images/Path53.png')}/>
+                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '1.31vw', marginBottom: '2.1739vh'}} src={require('../../Images/Path53.png')}/>
+                  <img style={{width:'16.92 vw', height: '34.78vh', marginLeft: '1.31vw', marginBottom: '2.1739vh'}} src={require('../../Images/Path53.png')}/>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@ function HomePage2() {
           </div>
         </div>
       </div>
-      <div style={{width: '100vw', height: '184.34vh', backgroundColor: 'black'}}>
+      <div style={{width: '100vw', backgroundColor: 'black', paddingBottom: '23.4782vh'}}>
         <div style={{paddingTop: '9.3913vh',paddingBottom: '9.3913vh', width: '100%', textAlign: 'center'}}> 
           <Text data="Why Join TalentFirst?" fontWeight="900" fontSize="6.5217vh" lineHeight="6.5217vh"/>  
         </div>
@@ -188,14 +188,14 @@ function HomePage2() {
           </div>
         </div>
         <div style={{marginTop: '21.739vh', width: '100%', paddingLeft: '10%',}}>
-          <div style={{width: '100%', color: 'white'}}>Frequently Asked Question</div>
-          <div style={{display: 'flex', flexDirection: 'row', width: '100%'}}>
-            <div style={{width: '100%'}}>
+          <div style={{width: '100%', color: 'white',fontStyle: 'Italic', marginBottom: '8.6956vh', fontSize: '6.5217vh', fontWeight: '400'}}>Frequently Asked Question</div>
+          <div style={{display: 'flex', flexDirection: 'row', width: '80%'}}>
+            <div style={{width: '100%', marginRight:'5.2083vw'}}>
               <Faq2 question="What is TalentFirst?" answer="You get invoiced at the end of every month. If you hire multiple talents, you get a single invoice for all your hires. This makes the financing hassle free & easy." width='100%'/>
               <Faq2 question="What is TalentFirst?" answer="You get invoiced at the end of every month. If you hire multiple talents, you get a single invoice for all your hires. This makes the financing hassle free & easy." width='100%'/>
               <Faq2 question="What is TalentFirst?" answer="You get invoiced at the end of every month. If you hire multiple talents, you get a single invoice for all your hires. This makes the financing hassle free & easy." width='100%'/>
             </div>
-            <div style={{width: '100%'}}>
+            <div style={{width: '100%',  marginRight:'5.2083vw'}}>
               <Faq2 question="What is TalentFirst?" answer="You get invoiced at the end of every month. If you hire multiple talents, you get a single invoice for all your hires. This makes the financing hassle free & easy." width='100%'/>
               <Faq2 question="What is TalentFirst?" answer="You get invoiced at the end of every month. If you hire multiple talents, you get a single invoice for all your hires. This makes the financing hassle free & easy." width='100%'/>
               <Faq2 question="What is TalentFirst?" answer="You get invoiced at the end of every month. If you hire multiple talents, you get a single invoice for all your hires. This makes the financing hassle free & easy." width='100%'/>

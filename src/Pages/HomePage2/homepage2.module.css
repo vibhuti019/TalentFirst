@@ -97,6 +97,7 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
+    padding-bottom: 13.0434vh;
 }
 .darkBgPic{
     background-color: black;
@@ -146,7 +147,6 @@
 .section7sub{
     width: 50%;
     display: flex;
-    justify-content: end;
     text-align: right;
 }
 .section8{

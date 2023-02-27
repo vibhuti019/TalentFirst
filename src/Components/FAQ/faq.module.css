@@ -35,28 +35,22 @@
 .container2{
     color: black;
     text-align: left;
-    border-radius: 0.8695vh;
     font-family: 'Montserrat';
     background-color: transparent;
-    margin-top: 2.1739vh;
     cursor: pointer;
+    border-top: 1px #101010 solid;
+    border-bottom: 0.5px #101010 solid;
 }
 .question2{
-    width: calc(100%-3.9062vw);
     background-color: transparent;
     font-weight: 700;
     font-size: 2.1739vh;
     line-height: 2.1739vh;
     padding: 2.1739vh;
-    margin-left: 2.6041vw;
-    margin-right: 2.6041vw;
     color: white;
-    border-top: 1px white solid;
-    border-bottom: 1px white solid;
 }
 .answer2{
     background-color: transparent;
-    width: calc(100%-3.9062vw);
     font-weight: 500;
     font-size: 1.7391vh;
     line-height: 2.1739vh;
