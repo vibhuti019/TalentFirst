@@ -63,7 +63,28 @@ function FormPage2() {
             <InputText data="Enter LinkedIn URL" width="calc(200% - 2vw)"/>  
           </div>
         
-        <Text data="Current Role & Expectations"  fontWeight="700" fontSize="2.6086vh" lineHeight="2.6086vh" color="black" margin="2.1739vh 0vh"/>
+        <Text data="Education Details & English Proficiency"  fontWeight="700" fontSize="2.6086vh" lineHeight="2.6086vh" color="black" margin="2.1739vh 0vh"/>
+        <div className={styles.eachDetail}>
+          <Text data="What’s Your Educational Background?"  fontWeight="700" fontSize="1.7391vh" lineHeight="1.7391vh" color="black" margin="0px 0px 2.1739vh"/>
+          <div className={styles.addEducation}>
+            <img className={styles.addEducationImg} src={require('../../Images/Plus.png')} />
+            <Text data="Upload Your Most Recent Resume"  fontWeight="700" fontSize="1.7391vh" lineHeight="1.7391vh" color="black"/>
+          </div>
+        </div>
+        <div className={styles.details}>
+          <div className={styles.eachDetail}>
+            <Text data="How's Your English?"  fontWeight="700" fontSize="1.7391vh" lineHeight="1.7391vh" color="black" margin="2.1739vh 0vh"/>
+            <InputRadioButton data="Basic" width="calc(100% - 2vw)"/>  
+          </div> 
+          <div className={styles.eachDetail} style={{marginRight: '0px'}}>
+            <Text data="a"  fontWeight="700" fontSize="1.7391vh" lineHeight="1.7391vh" color="transparent" margin="2.1739vh 0vh"/>
+            <InputRadioButton data="Average" width="calc(100% - 2vw)"/>  
+          </div> 
+          <div className={styles.eachDetail} style={{marginRight: '0px'}}>
+            <Text data="a"  fontWeight="700" fontSize="1.7391vh" lineHeight="1.7391vh" color="transparent" margin="2.1739vh 0vh"/>
+            <InputRadioButton data="Fluent" width="calc(100% - 2vw)"/>  
+          </div> 
+        </div>
         
 
 

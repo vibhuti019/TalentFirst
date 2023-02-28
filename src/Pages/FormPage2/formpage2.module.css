@@ -87,6 +87,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #FFFFFF;
 }
 .uploadImg{
     width: 4.3478vh;
@@ -107,6 +108,24 @@
     height: 4.3478vh;
     background-color: white;
     padding: 6.5217vh;
+    border-radius: 1000px;
+    margin-right: 25px;
+}
+.addEducation{
+    width: 55.729vw;
+    height: 8.6956vh;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+.addEducationImg{
+    width: 4.3478vh;
+    height: 4.3478vh;
+    background-color: white;
     border-radius: 1000px;
     margin-right: 25px;
 }
