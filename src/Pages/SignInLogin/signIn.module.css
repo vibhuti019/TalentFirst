@@ -1,0 +1,109 @@
+.container{
+    width: 100%;
+    height: 89.1304vh;
+    display: flex;
+    flex-direction: row;
+}
+.containerRight{
+    display: flex;
+    width: 46.875vw;
+    height: 89.1304vh;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    width: 60%;
+    text-align: center;
+    margin-top: 8.6956vh;
+}
+.iconContain{
+    display: flex;
+}
+.iconContainImg {
+    margin-right: 2.5906vw;
+    height: 2.6086vh;
+}
+
+.mainImage{
+    width: 31.25vw;
+    height: 30.260869vh;
+    margin-top: 8.6956vh;
+    margin-bottom: 8.6956vh;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.containerLeft{
+    display: flex;
+    height: 80.3348vh;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 7.8125vw;
+    padding-top: 8.6956vh;
+}
+.textLeft{
+    width: 100%;
+    text-align: left;
+}
+.loginWithContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.3478vh;
+}
+.loginWith{
+    width: 14.125vw;
+    padding: 13px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F4F4;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.loginWith > div{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7391vh;
+    line-height: 2.7139vh;
+    width: 80%;
+}
+.loginWith > img{
+    width: 4.3478vh;
+}
+.line{
+    width: 16.979vw;
+    height: 2px;
+    border-bottom: 1px solid #C2C2C2;
+}
+.Or{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.8260vh;
+    margin-bottom: 4.3478vh;
+}
+.orText{
+    margin-top: -8px;
+    color: #707070;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7391vh;
+    line-height: 2.1739vh;
+    padding: 5px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.1739vh;
+}
+.eachDetail{
+    width: 18.2291vw;
+    margin-right: 1.3020vw;
+}

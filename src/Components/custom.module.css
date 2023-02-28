@@ -4,6 +4,7 @@
     font-weight: 700;
     font-size: 2.608vh;
     line-height: 2.608vh;    
+    cursor: default;
 }
 .logoText{
     font-family: 'Montserrat';

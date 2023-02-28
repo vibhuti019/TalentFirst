@@ -1,4 +1,16 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
 .container{
+    padding-left: 7.8125vw;
+    padding-top: 8.6956vh;
+    padding-bottom: 8.6956vh;
+    width: 55.72vw;
+}
+.leftContainer{
+    width: 20.833vw;
+    height: 76.0868vh;
     padding-left: 7.8125vw;
     padding-right: 7.8125vw;
     padding-top: 8.6956vh;
@@ -37,7 +49,7 @@
     margin-bottom: 2.1739vh;
 }
 .eachDetail{
-    width: 20.1171vw;
+    width: 27.1875vw;
     margin-right: 1.3020vw;
 }
 .endButton{
@@ -65,4 +77,36 @@
     height: 43.4782vh;
     border-radius: 10px;
     margin-left: 2.6041vw;
+}
+.uploadResume{
+    width: 55.729vw;
+    height: 17.39vh;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.uploadImg{
+    width: 4.3478vh;
+    height: 4.3478vh;
+}
+.uploadFile{
+    width: 55.729vw;
+    height: 17.39vh;
+    margin-top: 4.3478vh;
+    margin-bottom: 4.3478vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.uploadFileImg{
+    width: 4.3478vh;
+    height: 4.3478vh;
+    background-color: white;
+    padding: 6.5217vh;
+    border-radius: 1000px;
+    margin-right: 25px;
 }

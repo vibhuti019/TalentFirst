@@ -1,4 +1,4 @@
-import Header from '../../Components/Header/Header.js'
+import Header from '../../Components/Header/header.js'
 import styles from './formpage.module.css'
 import Text from '../../Components/text.js';
 import InputButton from '../../Components/inputButton.js';
@@ -7,7 +7,7 @@ import Button from '../../Components/button.js';
 import { useState } from 'react';
 import InputRadioButton from '../../Components/inputRadioButton.js';
 
-function FormPage2() {
+function FormPage() {
   const [formNo, setFormNo] = useState(1)
 
   const form1 = ()=>{
@@ -91,7 +91,7 @@ function FormPage2() {
         <div className={styles.form3}>
           <div className={styles.calendly}></div>
           <div className={styles.data}>
-            <img src={require('../../Images/Mask group.png')} style={{marginBottom: '2.1739vh',width: '5.2083vw',height: '8.6956vh'}}/>
+            <img src={require('../../Images/Mask group.png')} style={{marginBottom: '2.1739vh',width: '8.6956vh',height: '8.6956vh'}}/>
             <Text data="Hello 👋🏻 I am Yugen Chokshi, your Talent Manager. I will make sure your"  fontWeight="500" fontSize="1.7391vh" lineHeight="2.0869vh" color="black"/>           
             <Text data="hiring experience is worthwhile with TalentFirst!"  fontWeight="500" fontSize="1.7391vh" lineHeight="2.0869vh" color="black" margin="0px 0px 2.1739vh"/>           
             <Text data="I will be connecting with you to discuss more about your requirements & will "  fontWeight="500" fontSize="1.7391vh" lineHeight="2.0869vh" color="black"/>           
@@ -154,4 +154,4 @@ function FormPage2() {
   );
 }
 
-export default FormPage2;
+export default FormPage;

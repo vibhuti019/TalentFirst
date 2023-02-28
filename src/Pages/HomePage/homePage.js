@@ -1,4 +1,4 @@
-import Header from '../../Components/Header/Header.js'
+import Header from '../../Components/Header/header.js'
 import styles from './homepage.module.css'
 import Text from '../../Components/text.js';
 import Button from '../../Components/button.js';

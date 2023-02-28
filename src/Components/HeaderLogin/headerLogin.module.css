@@ -1,5 +1,5 @@
 .container{
-    background-color: black;
+    background-color: white;
     padding: 0vh 7.8125vw;
     display: flex;
     width: 84.375vw;
@@ -11,20 +11,16 @@
     top: 0;
     height: 10.8695vh;
 }
-.topics{
-    display: flex;
-    justify-content: flex-end;
-}
-.topics *>*:hover{
-    border-bottom: 2px solid #fff;
-}
-.topics *>*{
-    border-bottom: 2px solid #000;
-    cursor: pointer;
-}
 .login{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    color: #00070F;
+    padding: 1%;
+    border: 1px solid #CDCDCD;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
 }
