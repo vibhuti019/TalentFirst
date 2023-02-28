@@ -129,3 +129,71 @@
     border-radius: 1000px;
     margin-right: 25px;
 }
+.proTips{
+    display: flex;
+    flex-direction: column;
+    height: 34.78vh;
+    width: 15,6251vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.6041vw;
+    padding-right: 2.6041vw;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.protipsListItem{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.7391vh;
+    line-height: 2.7391vh;
+}
+.profilescore{
+    display: flex;
+    flex-direction: column;
+    height: 34.78vh;
+    width: 15,6251vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.6041vw;
+    padding-right: 2.6041vw;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.profilescoreText{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.7391vh;
+    line-height: 2.7391vh;
+}
+.progress{
+    position: relative;
+    margin: 4px;
+    float:left;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.3478vh;
+    line-height: 4.3478vh;
+    color: black;
+}
+.progress > span{
+    color: #EEEEEE;
+}
+.barOverflow{ 
+    position: relative;
+    overflow: hidden;
+    width: 23.56vh; height: 11.78vh;
+    margin-bottom: -4vh;
+}
+.bar{
+    position: absolute;
+    top: 0; left: 0;
+    width: 23.56vh; height: 23.56vh;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2.6956vh solid #eee;   
+    border-bottom-color: #0bf; 
+    border-right-color: #0bf;
+}

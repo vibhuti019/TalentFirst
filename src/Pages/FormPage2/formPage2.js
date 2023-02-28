@@ -172,7 +172,25 @@ function FormPage2() {
           </div>  
         </div>
         <div className={styles.leftContainer}>
-          hi
+          <div className={styles.profilescore}>
+            <Text data="Profile Score 🎯"  fontWeight="700" fontSize="2.7391vh" lineHeight="2.7391vh" color="black" margin="0px 0px 2.1739vh"/>
+            <div className={styles.progress}>
+              <div className={styles.barOverflow}>
+                <div className={styles.bar} style={{transform: 'rotateZ(86deg)'}}></div>
+              </div>
+              <span>90</span>/100
+            </div>
+            <div className={styles.profilescoreText}>Complete your profile for higher score and a faster path to get hired.</div>
+          </div>
+          <div className={styles.proTips}>
+            <Text data="PRO Tips 🔥"  fontWeight="700" fontSize="2.7391vh" lineHeight="2.7391vh" color="black" margin="0px 0px 2.1739vh"/>
+            <ol>
+              <li className={styles.protipsListItem}>Use a desktop site to complete your profile faster.</li>
+              <li className={styles.protipsListItem}>Make sure that all the information is accurate.</li>
+              <li className={styles.protipsListItem}>Add a professional profile picture to stand-out.</li>
+              <li className={styles.protipsListItem}>Mention all your technical skills for better match</li>
+            </ol>
+          </div>
         </div>
       </div>
     </>
