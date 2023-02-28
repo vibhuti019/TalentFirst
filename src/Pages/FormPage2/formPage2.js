@@ -176,7 +176,7 @@ function FormPage2() {
             <Text data="Profile Score 🎯"  fontWeight="700" fontSize="2.7391vh" lineHeight="2.7391vh" color="black" margin="0px 0px 2.1739vh"/>
             <div className={styles.progress}>
               <div className={styles.barOverflow}>
-                <div className={styles.bar} style={{transform: 'rotateZ(86deg)'}}></div>
+                <div className={styles.bar} style={{transform: 'rotateZ(186deg)'}}></div>
               </div>
               <span>90</span>/100
             </div>
